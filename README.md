@@ -34,7 +34,7 @@ In this project, I built an event-driven architecture by harnessing the capabili
 * Name: Choose a name for your Lambda function.
 * Runtime: Select the appropriate runtime for your code (e.g., Python, Node.js, etc.).Here I am choosing Python 3.11
 * Execution role: Choose "Use an existing role" and select the IAM role created in Step 3.
-* Click "Create function."
+* Click "Create function".
 
 #### Step 5: Write Lambda Function Code
 Write the Lambda function code to count words in the uploaded text file.
