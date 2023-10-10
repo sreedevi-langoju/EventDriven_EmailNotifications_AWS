@@ -40,7 +40,7 @@ In this project, I built an event-driven architecture by harnessing the capabili
 #### Step 5: Write Lambda Function Code
 * Write the Lambda function code to count words in the uploaded text file. 
  (OR)
-* Delete the existing code in the  Lambda Code area and copy the paste the python code from .py file in this repository.
+* Delete the existing code in the  Lambda Code area and copy the paste the python code from wordcount.py file in this repository.
 * In the Function overview section, scroll down to the "Function code" panel.
 * In the "Environment variables" section, click the "Edit" button to add environmental variables.
 * Add a new environmental variable with a key like SNS_TOPIC_ARN and the value set to your SNS topic's ARN.
