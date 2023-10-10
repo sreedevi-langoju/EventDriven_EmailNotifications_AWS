@@ -37,8 +37,9 @@ In this project, I built an event-driven architecture by harnessing the capabili
 * Click "Create function".
 
 #### Step 5: Write Lambda Function Code
-Write the Lambda function code to count words in the uploaded text file.
-Copy and paste the python code from .py file to 
+Write the Lambda function code to count words in the uploaded text file. 
+ (OR)
+Delete the existing code in the  Lambda Code area and copy the paste the python code from .py file in this repository
 
 #### Step 6: Configure S3 Event Trigger for Lambda
 
