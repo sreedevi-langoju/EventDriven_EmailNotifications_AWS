@@ -16,6 +16,7 @@ In this project, I built an event-driven architecture by harnessing the capabili
 * Click "Create Topic" and follow the wizard to create a new SNS topic.
 * Configure the topic with a name and display name. You will use this topic to send word count notifications.
 * Need to subscribe to this SNS topic.
+* Notedown the SNS Topic ARN value.
 
 #### Step 3: Create an IAM Role for Lambda
 
@@ -37,18 +38,14 @@ In this project, I built an event-driven architecture by harnessing the capabili
 * Click "Create function".
 
 #### Step 5: Write Lambda Function Code
-Write the Lambda function code to count words in the uploaded text file. 
+* Write the Lambda function code to count words in the uploaded text file. 
  (OR)
-Delete the existing code in the  Lambda Code area and copy the paste the python code from .py file in this repository.
-In the Function overview section, scroll down to the "Function code" panel.
-
-In the "Environment variables" section, click the "Edit" button to add environmental variables.
-
-Add a new environmental variable with a key like SNS_TOPIC_ARN and the value set to your SNS topic's ARN.
-
-Add SNS Topic ARN Variable
-
-Click "Save" to save the environmental variable.
+* Delete the existing code in the  Lambda Code area and copy the paste the python code from .py file in this repository.
+* In the Function overview section, scroll down to the "Function code" panel.
+* In the "Environment variables" section, click the "Edit" button to add environmental variables.
+* Add a new environmental variable with a key like SNS_TOPIC_ARN and the value set to your SNS topic's ARN.
+* Add SNS Topic ARN Variable
+* Click "Save" to save the environmental variable.
 
 #### Step 6: Configure S3 Event Trigger for Lambda
 
